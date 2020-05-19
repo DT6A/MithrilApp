@@ -23,9 +23,29 @@
         android:text="Send" />
 
     <TextView
+        android:id="@+id/dataTextTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Recieved data:"/>
+
+    <TextView
         android:id="@+id/dataTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"/>
 
+    <Switch
+        android:id="@+id/switchPosture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posture processing"
+        />
+    <Button
+        android:id="@+id/calibrCommandBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:text="Calibrate" />
 </LinearLayout>
